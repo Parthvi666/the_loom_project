@@ -1,0 +1,2 @@
+// Displays progress through the product creation flow.
+export function ProgressBar({ current, total }: { current: number; total: number }) { return <progress value={current} max={total} aria-label="Progress" />; }

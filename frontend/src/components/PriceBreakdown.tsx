@@ -1,0 +1,2 @@
+// Displays the cost components used by pricing screens.
+export function PriceBreakdown({ material, labour, packaging, other }: { material: number; labour: number; packaging: number; other: number }) { return <dl><dt>Material</dt><dd>{material}</dd><dt>Labour</dt><dd>{labour}</dd><dt>Packaging</dt><dd>{packaging}</dd><dt>Other</dt><dd>{other}</dd></dl>; }
