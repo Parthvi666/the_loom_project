@@ -1,0 +1,24 @@
+# Environment variables / secrets
+backend/.env
+.env
+.env.*
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+
+# Local database
+*.db
+*.db-journal
+
+# Local uploads
+backend/uploads/
+uploads/
+
+# Logs
+*.log
+npm-debug.log*
